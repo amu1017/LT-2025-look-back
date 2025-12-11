@@ -47,18 +47,18 @@ fonts:
 
 # 2025年振り返り・学び<br>本との出会い
 
-2025/12/12 まさるの勉強部屋  
+2025/12/12  
+まさるの勉強部屋  
 ITを頑張る人が集まる2025年お疲れ様会！
 
 <div class="abs-br m-6 flex items-center">
-  <div class="text-sm text-right" style="max-width: 250px; line-height: 1.3;">
-    <p style="margin-bottom: px;">本スライドはSlidevで作ってます<br>お手元で確認したい方はこちら</p>
+  <div class="text-sm text-right" style="max-width: 250px;">
+    <p style="margin-bottom: 4px;">本スライドはSlidevで作ってます<br>お手元で確認したい方はQRコードを<br>スキャンしてください</p>
     <p style="margin-bottom: 4px;">
-      <a href="https://amu1017.github.io/LT-2025-look-back">スライドへのリンク</a><br>
-      <a href="https://github.com/amu1017/LT-2025-look-back">Githubリポジトリへのリンク</a>
+      <a href="https://github.com/amu1017/LT-2025-look-back">ソースコードはこちら</a>
     </p>
   </div>
-  <img src="/images/qr-ghpages.drawio.svg" alt="QR Code" class="w-40 h-40" />
+  <img src="/images/qr-ghpages.drawio.svg" alt="QR Code" class="w-35 h-35" />
 </div>
 
 ---
