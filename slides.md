@@ -3,6 +3,10 @@
 # スライド全体のデザインテーマを指定します（外観やレイアウトが変わります）
 theme: light-icons
 
+# GitHub Pagesのベースパス設定
+# プロジェクトページのベースURLを指定します
+base: /LT-2025-look-back/
+
 # カバースライドの背景画像
 # 最初のスライドの背景画像URLを指定します
 #background: https://cover.sli.dev
