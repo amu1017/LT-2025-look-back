@@ -3,10 +3,6 @@
 # スライド全体のデザインテーマを指定します（外観やレイアウトが変わります）
 theme: light-icons
 
-# GitHub Pagesのベースパス設定
-# プロジェクトページのベースURLを指定します
-base: /LT-2025-look-back/
-
 # カバースライドの背景画像
 # 最初のスライドの背景画像URLを指定します
 #background: https://cover.sli.dev
@@ -51,18 +47,23 @@ fonts:
 
 # 2025年振り返り・学び<br>本との出会い
 
-2025/12/12  
-まさるの勉強部屋  
+2025/12/12 まさるの勉強部屋  
 ITを頑張る人が集まる2025年お疲れ様会！
-<div class="abs-br m-6 text-xl">
-  <a href="https://github.com/amu1017/2025-look-back" target="_blank" class="slidev-icon-btn">
-    <carbon:logo-github />
-  </a>
+
+<div class="abs-br m-6 flex items-center">
+  <div class="text-sm text-right" style="max-width: 250px; line-height: 1.3;">
+    <p style="margin-bottom: px;">本スライドはSlidevで作ってます<br>お手元で確認したい方はこちら</p>
+    <p style="margin-bottom: 4px;">
+      <a href="https://amu1017.github.io/LT-2025-look-back">スライドへのリンク</a><br>
+      <a href="https://github.com/amu1017/LT-2025-look-back">Githubリポジトリへのリンク</a>
+    </p>
+  </div>
+  <img src="/images/qr-ghpages.drawio.svg" alt="QR Code" class="w-40 h-40" />
 </div>
 
 ---
 layout: image-right
-image: './assets/images/p2.drawio.svg'
+image: './images/p2.drawio.svg'
 ---
 
 # 自己紹介：<ruby>鈴木<rt>すずき</rt></ruby> <ruby>歩<rt>あゆむ</rt></ruby>
@@ -79,7 +80,7 @@ image: './assets/images/p2.drawio.svg'
 
 ---
 layout: image-right
-image: './assets/images/p3.drawio.svg'
+image: './images/p3.drawio.svg'
 ---
 
 # 今年の振り返り
@@ -105,7 +106,7 @@ image: './assets/images/p3.drawio.svg'
 layout: image-right
 ---
 
-# 今年の頑張ったこと
+# 今年辛かったこと／頑張ったこと
 
 - 新しい業務はベース知識こそ一緒だが、よりモダンな技術が多く業務内だけでは追いきれなかった
   - コンテナオーケストレーション　→　Kubernetes
@@ -121,7 +122,7 @@ layout: image-right
 
 ---
 layout: image-right
-image: './assets/images/p5.drawio.svg'
+image: './images/p5.drawio.svg'
 ---
 
 # 今年読んだ本の紹介①
@@ -141,7 +142,7 @@ image: './assets/images/p5.drawio.svg'
 
 ---
 layout: image-right
-image: './assets/images/p6.drawio.svg'
+image: './images/p6.drawio.svg'
 ---
 
 # 今年読んだ本の紹介②
@@ -163,7 +164,7 @@ image: './assets/images/p6.drawio.svg'
 
 ---
 layout: image-right
-image: './assets/images/p7.drawio.svg'
+image: './images/p7.drawio.svg'
 ---
 
 # 今年読んだ本の紹介③
@@ -183,7 +184,7 @@ image: './assets/images/p7.drawio.svg'
 
 ---
 layout: image-right
-image: './assets/images/p8.drawio.svg'
+image: './images/p8.drawio.svg'
 ---
 
 # 今年読んだ本の紹介④
@@ -203,7 +204,7 @@ AWS公式で本を出すのは珍しい例だと思った。しかも日本語�
 
 ---
 layout: image-right
-image: './assets/images/p9.drawio.svg'
+image: './images/p9.drawio.svg'
 ---
 
 # 今年読んだ本の紹介⑤
@@ -223,7 +224,7 @@ image: './assets/images/p9.drawio.svg'
 
 ---
 layout: image-right
-image: './assets/images/p10.drawio.svg'
+image: './images/p10.drawio.svg'
 ---
 
 # まとめ
